@@ -16,7 +16,7 @@ export default function Header() {
         opacity: 1,
         config: { duration: 1000 },
         delay: 2500
-    })    
+    })
 
     return (
         <>
@@ -26,7 +26,7 @@ export default function Header() {
             <h3 className='mainHeader'>Web Developer in Development</h3>
         </animated.div>
         <animated.div style={subFade}>
-            <FaGithub className='socialIcons' /> <FaLinkedin className='socialIcons' />
+            <FaGithub className='socialIcons' onClick={() => window.open('https://github.com/zakaryjs', '_blank') } /> <FaLinkedin className='socialIcons' onClick={() => window.open('https://www.linkedin.com/in/zakary-sutherland/', '_blank')} />
         </animated.div>
         </div>
         </>

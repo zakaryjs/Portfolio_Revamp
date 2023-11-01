@@ -19,23 +19,10 @@ let particleConfig = {
         },
         "opacity": {
             "value": 0.8,
-            "random": false,
-            "anim": {
-                "enable": false,
-                "speed": 1,
-                "opacity_min": 0.1,
-                "sync": false
-            }
         },
         "size": {
             "value": 2,
             "random": false,
-            "anim": {
-                "enable": false,
-                "speed": 50,
-                "size_min": 0.1,
-                "sync": false
-            }
         },
         "rotate": {
             "value": 0,

@@ -2,7 +2,7 @@
     font-family: 'Tilt Neon', sans-serif;
     text-align: center;
     color: #f5e218;
-    margin: 10px;
+    margin: 20px;
   }
   
   #mainHeaderText {
@@ -17,4 +17,5 @@
     margin-top: 10px;
     color: #f5e218;
     font-size: 30px;
+    cursor: pointer;
   }
