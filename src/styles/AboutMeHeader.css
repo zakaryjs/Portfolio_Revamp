@@ -1,0 +1,20 @@
+.aboutMeHeader {
+    font-family: 'Tilt Neon', sans-serif;
+    text-align: center;
+    color: #f5e218;
+    margin: 20px;
+  }
+
+  #aboutMeHeaderText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .aboutMeSubText {
+    font-family: 'Tilt Neon', sans-serif;
+    margin-top: 10px;
+    color: #f5e218;
+  }
