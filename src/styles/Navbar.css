@@ -2,6 +2,6 @@ nav {
     font-family: 'Tilt Neon', sans-serif;
     color: #f5e218;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 20px;
 }
