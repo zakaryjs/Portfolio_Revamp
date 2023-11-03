@@ -1,0 +1,25 @@
+#paintBrush {
+    font-family: 'Tilt Neon', sans-serif;
+    color: #f5e218;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#yellowCircle {
+    color: #f5e218;
+}
+
+#redCircle {
+    color: #ff0000;
+}
+
+#blueCircle {
+    color: #00FFFF;
+}
+
+.colourCircle {
+    padding-top: 27px;
+}

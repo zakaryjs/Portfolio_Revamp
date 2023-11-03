@@ -1,0 +1,16 @@
+#yellowCircle {
+    color: #f5e218;
+}
+
+#redCircle {
+    color: #ff0000;
+}
+
+#blueCircle {
+    color: #00FFFF;
+}
+
+.colourCircle {
+    margin: 5%;
+
+}
