@@ -10,16 +10,20 @@
 
 #yellowCircle {
     color: #f5e218;
+    left: 45%;
 }
 
 #redCircle {
     color: #ff0000;
+    left: 50%;
 }
 
 #blueCircle {
     color: #00FFFF;
+    left: 55%;
 }
 
 .colourCircle {
+    position: fixed;
     padding-top: 27px;
 }

@@ -1,7 +1,7 @@
 import { FaPaintbrush } from 'react-icons/fa6';
 import '../styles/Palette.css'
 import { ColourContext } from '../contexts/ColourContext'
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { FaCircle } from 'react-icons/fa';
 
 export default function Palette() {
@@ -29,10 +29,6 @@ export default function Palette() {
     function SetYellow() {
         setColour("#f5e218")
     }
-
-    useEffect(() => {
-        console.log(hidden)
-    }, [hidden])
 
 
 
