@@ -18,15 +18,15 @@ export default function Palette() {
         setHidden((hidden) => !hidden)
     }
 
-    function debugSetRed() {
+    function SetRed() {
         setColour("#ff0000")
     }
 
-    function debugSetBlue() {
+    function SetBlue() {
         setColour("#00FFFF")
     }
 
-    function debugSetYellow() {
+    function SetYellow() {
         setColour("#f5e218")
     }
 
@@ -40,9 +40,9 @@ export default function Palette() {
         <div id='paletteDiv'>
             <FaPaintbrush id='paintBrush' style={style} onClick={paletteToggle}/>
             <div>
-            {hidden && <FaCircle className='colourCircle' id='yellowCircle' onClick={debugSetYellow}/>}
-            {hidden && <FaCircle className='colourCircle' id='redCircle' onClick={debugSetRed}/>}
-            {hidden && <FaCircle className='colourCircle' id='blueCircle' onClick={debugSetBlue}/>}
+            {hidden && <FaCircle className='colourCircle' id='yellowCircle' onClick={SetYellow}/>}
+            {hidden && <FaCircle className='colourCircle' id='redCircle' onClick={SetRed}/>}
+            {hidden && <FaCircle className='colourCircle' id='blueCircle' onClick={SetBlue}/>}
             </div>
         </div>
         
