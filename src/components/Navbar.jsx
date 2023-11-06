@@ -20,6 +20,11 @@ export default function Navbar(){
                         About Me
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink to="/skills" style={({isActive}) => isActive ? activeLink : undefined}>
+                        Skills
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     )
