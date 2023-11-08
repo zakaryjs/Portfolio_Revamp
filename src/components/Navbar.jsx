@@ -25,6 +25,16 @@ export default function Navbar(){
                         Skills
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink to="/projects" style={({isActive}) => isActive ? activeLink : undefined}>
+                        Projects
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/contact" style={({isActive}) => isActive ? activeLink : undefined}>
+                        Contact Me
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     )

@@ -1,0 +1,27 @@
+.projectHeaderText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.projectHeader {
+    font-family: 'Tilt Neon', sans-serif;
+    text-align: center;
+    color: #f5e218;
+    margin: 20px;
+}
+
+.projectsSubText {
+    font-family: 'Tilt Neon', sans-serif;
+    margin-top: 10px;
+    color: #f5e218;
+  }
+
+  .socialIcons {
+    margin-top: 10px;
+    color: #f5e218;
+    font-size: 30px;
+    cursor: pointer;
+  }
