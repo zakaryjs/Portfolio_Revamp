@@ -16,7 +16,7 @@ export default function ProjectsHeader() {
         },
         {
             name: "Who's that Pokemon?",
-            description: 'A React app built as a part of the week-long Coder Academy React hackathon. Randomly chooses Pokemon, and the user needs to guess the name.',
+            description: 'A React app built as a part of the Coder Academy React hackathon. Randomly chooses Pokemon, and the user needs to guess the name.',
             link: 'https://github.com/zakaryjs/Hackathon_-_Whos-That-Pokemon-React'
         },
         {
@@ -79,6 +79,8 @@ export default function ProjectsHeader() {
                 </div>
             ))}
         </animated.div>
+        <br />
+        <br />
         </div>
         </>
     )

@@ -35,7 +35,6 @@ export default function AboutMeHeader() {
                 <h3 style={style} className='aboutMeSubText'>Hi! My name is Zakary.</h3>
                 <p style={style} className='aboutMeSubText'>I'm a tech enthusiast, gamer, and a keen learner.</p>
                 <p style={style} className='aboutMeSubText'>I have always loved technology, and have always had an interest in computer programming.</p>
-                <p style={style} className='aboutMeSubText'>At just four years old, I was introduced to the PlayStation 2 and this quickly evolved into a love for technology as a whole.</p>
                 <p style={style} className='aboutMeSubText'>In 2022, due to the rise in COVID cases in Western Australia I began to complete online school full time.</p>
                 <p style={style} className='aboutMeSubText'>It was during this time that I began to think about my future career, and a reddit post which introduced me to Coder Academy.</p>
                 <p style={style} className='aboutMeSubText'>I am nearing the end of the Bootcamp now, and I can confidently say that it was a truly awesome experience. I have learned so much!</p>
