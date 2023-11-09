@@ -3,6 +3,7 @@ import { useSpring, animated } from '@react-spring/web'
 import { useContext } from 'react';
 import { ColourContext } from '../contexts/ColourContext';
 import { FiExternalLink } from 'react-icons/fi'
+import { FaGithub } from 'react-icons/fa6';
 
 
 export default function ProjectsHeader() {
@@ -23,11 +24,11 @@ export default function ProjectsHeader() {
             description: 'Website built with React that uses WeatherAPI to fetch the current and upcoming weather conditions for any given location.',
             link: 'https://github.com/zakaryjs/Project_-_Weatherly-React'
         },
-        {
-            name: 'SpotiMy',
-            description: 'SpotiMy is a website that uses the Last.FM API in order to retrieve the song a user is currently listening to, or has most recently listened to.',
-            link: 'https://github.com/zakaryjs/Project_-_SpotiMy'
-        },
+        // {
+        //     name: 'SpotiMy',
+        //     description: 'SpotiMy is a website that uses the Last.FM API in order to retrieve the song a user is currently listening to, or has most recently listened to.',
+        //     link: 'https://github.com/zakaryjs/Project_-_SpotiMy'
+        // },
         // {
         //     name: 'Webserver API',
         //     description: 'An API built with the Flask framework designed to manage the organisation of physical media.',
@@ -69,6 +70,7 @@ export default function ProjectsHeader() {
             <h1 style={style} className='aboutMeHeader'>Projects</h1>
         </animated.div>
         <animated.div style={subFade}>
+        <FaGithub style={style} className='github' onClick={() => window.open('https://github.com/zakaryjs', '_blank') } />
             {projects.map(project => (
                 <div key={project.name}>
                     <h3 style={style} className='projectsSubText'>{project.name}</h3>
