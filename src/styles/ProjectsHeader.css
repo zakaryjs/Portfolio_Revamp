@@ -31,3 +31,12 @@
     font-size: 40px;
     cursor: pointer;
   }
+
+  .email {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .spacer {
+    margin-top: 5px;
+  }

@@ -2,6 +2,7 @@ import '../styles/Home.css';
 import BackgroundParticles from '../components/BackgroundParticles';
 import Footer from '../components/Footer';
 import Palette from '../components/Palette';
+import ContactHeader from '../components/ContactHeader';
 // import Hamburger from './components/Hamburger';
 
 function Contact() {
@@ -11,6 +12,7 @@ function Contact() {
       {/* <Hamburger /> */}
       <BackgroundParticles />
       <Palette />
+      <ContactHeader />
       <Footer />
     </div>
   );
