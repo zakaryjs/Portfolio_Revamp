@@ -38,7 +38,7 @@ export default function AboutMeHeader() {
                 <p style={style} className='aboutMeSubText'>At just four years old, I was introduced to the PlayStation 2 and this quickly evolved into a love for technology as a whole.</p>
                 <p style={style} className='aboutMeSubText'>In 2022, due to the rise in COVID cases in Western Australia I began to complete online school full time.</p>
                 <p style={style} className='aboutMeSubText'>It was during this time that I began to think about my future career, and a reddit post which introduced me to Coder Academy.</p>
-                <p style={style} className='aboutMeSubText'>Even though the bootcamp has only just began, I can confidently say that it has been an awesome experience, and I have learned so much already!</p>
+                <p style={style} className='aboutMeSubText'>I am nearing the end of the Bootcamp now, and I can confidently say that it was a truly awesome experience. I have learned so much!</p>
             </animated.div>
         </div>
     )
